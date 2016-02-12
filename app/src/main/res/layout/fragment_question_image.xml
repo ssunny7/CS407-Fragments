@@ -1,7 +1,23 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="layout.ImageQuestionFragment">
 
-</FrameLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionImage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionImageText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/startpage_button_text_fontsize"
+        android:id="@+id/answerText"/>
+
+</LinearLayout>

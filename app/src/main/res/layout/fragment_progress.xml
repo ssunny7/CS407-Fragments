@@ -1,8 +1,15 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProgressFragment">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextButton"
+        android:text="@string/questionpage_progresstext"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"/>
 
-</FrameLayout>
+</LinearLayout>
