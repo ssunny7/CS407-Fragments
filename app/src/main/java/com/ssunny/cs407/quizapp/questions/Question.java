@@ -1,7 +1,5 @@
 package com.ssunny.cs407.quizapp.questions;
 
-import java.util.ArrayList;
-
 /**
  * Created by ssunny7 on 11/02/2016.
  */
