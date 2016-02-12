@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startpage_welcometext"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:paddingTop="@dimen/startpage_welcometext_padding"
+        android:paddingBottom="@dimen/startpage_welcometext_padding"
+        android:textSize="@android:dimen/app_icon_size"/>
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/startpage_button_margin"
+        android:padding="@dimen/startpage_button_padding"
+        android:textColor="@android:color/white"
+        android:background="@color/red"
+        android:textSize="@dimen/startpage_button_text_fontsize"
+        android:text="@string/startpage_buttontext"/>
+
+</LinearLayout>
