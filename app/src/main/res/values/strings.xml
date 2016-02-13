@@ -4,4 +4,5 @@
     <string name="startpage_welcometext">Welcome to the Quiz!</string>
     <string name="startpage_buttontext">START</string>
     <string name="questionpage_progresstext">NEXT >>></string>
+    <string name="title_activity_quiz_play">QuizPlayActivity</string>
 </resources>

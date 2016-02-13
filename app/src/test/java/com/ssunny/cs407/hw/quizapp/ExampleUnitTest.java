@@ -1,4 +1,4 @@
-package com.ssunny.cs407.hw.quizapp;
+package com.ssunny.cs407.quizapp.ui;
 
 import org.junit.Test;
 
