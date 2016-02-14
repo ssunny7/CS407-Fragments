@@ -5,4 +5,7 @@
     <string name="startpage_buttontext">START</string>
     <string name="questionpage_progresstext">NEXT >>></string>
     <string name="title_activity_quiz_play">QuizPlayActivity</string>
+    <string name="title_activity_quiz_end">QuizEndActivity</string>
+    <string name="endpage_labeltext">Your score is</string>
+    <string name="endpage_buttontext">Play Again</string>
 </resources>

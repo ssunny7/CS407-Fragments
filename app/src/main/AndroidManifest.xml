@@ -21,6 +21,10 @@
         <activity
             android:name=".QuizPlayActivity"
             android:label="@string/title_activity_quiz_play"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuizEndActivity"
+            android:label="@string/title_activity_quiz_end"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -4,21 +4,22 @@ package com.ssunny.cs407.quizapp.questions;
  * Created by Cygnus on 11/02/2016.
  */
 public class ImageQuestion extends Question {
-    private String imageUrl;
+    private int imageId;
     private String answer;
 
     public ImageQuestion(String questionText, Type questionType) {
         super(questionText, questionType);
 
-        answer = imageUrl = null;
+        answer = null;
+        imageId = -1;
     }
 
-    public void setImageUrl(String _imageUrl) {
-        imageUrl = _imageUrl;
+    public void setImageId(int _imageId) {
+        imageId = _imageId;
     }
 
-    public String getImageUrl() {
-        return imageUrl;
+    public int getImageId() {
+        return imageId;
     }
 
     public void setAnswer(String _answer) {

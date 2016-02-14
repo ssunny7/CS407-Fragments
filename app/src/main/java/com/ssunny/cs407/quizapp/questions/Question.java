@@ -24,4 +24,5 @@ public class Question {
     public Type getQuestionType() {
         return questionType;
     }
+
 }

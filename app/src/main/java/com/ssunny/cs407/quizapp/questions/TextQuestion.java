@@ -6,13 +6,15 @@ import java.util.ArrayList;
  * Created by Cygnus on 11/02/2016.
  */
 public class TextQuestion extends Question {
-    ArrayList<String> options;
-    int answerIndex;
+    private  String[] options;
+    private int optionIndex;
+    private int answerIndex;
 
     public TextQuestion(String _questionText, Type _questionType) {
         super(_questionText, _questionType);
 
         options = null;
+        optionIndex = 0;
         answerIndex = -1;
     }
 
@@ -25,13 +27,13 @@ public class TextQuestion extends Question {
     }
 
     public String[] getOptions() {
-        return (String[])options.toArray();
+        return options;
     }
 
     public void addOption(String option) {
         if(options == null)
-            options = new ArrayList<String>();
+            options = new String[4];
 
-        options.add(option);
+        options[optionIndex++] = option;
     }
 }
