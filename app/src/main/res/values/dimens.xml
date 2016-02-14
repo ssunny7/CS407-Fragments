@@ -9,5 +9,6 @@
     <dimen name="startpage_button_text_fontsize">16pt</dimen>
     <dimen name="endpage_score_text_fontsize">28pt</dimen>
     <dimen name="playpage_questionfragment_padding">10dp</dimen>
+    <dimen name="endpage_button_margin">20dp</dimen>
 </resources>
 

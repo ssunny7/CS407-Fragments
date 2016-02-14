@@ -7,5 +7,6 @@
     <string name="title_activity_quiz_play">QuizPlayActivity</string>
     <string name="title_activity_quiz_end">QuizEndActivity</string>
     <string name="endpage_labeltext">Your score is</string>
-    <string name="endpage_buttontext">Play Again</string>
+    <string name="endpage_button_text_playagain">Play Again</string>
+    <string name="endpage_button_text_end">Quit</string>
 </resources>

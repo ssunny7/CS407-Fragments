@@ -11,6 +11,7 @@ public class QuizEndActivity extends AppCompatActivity {
 
     private TextView scoreTextView;
     private Button playAgainButton;
+    private Button endButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class QuizEndActivity extends AppCompatActivity {
 
         scoreTextView = (TextView)findViewById(R.id.scoreView);
         playAgainButton = (Button)findViewById(R.id.playAgainButton);
+        endButton = (Button)findViewById(R.id.endButton);
 
         int score = getIntent().getExtras().getInt("SCORE");
         scoreTextView.setText(Integer.toString(score));
@@ -28,6 +30,14 @@ public class QuizEndActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent startActivityIntent = new Intent(getBaseContext(), QuizStartActivity.class);
                 startActivity(startActivityIntent);
+            }
+        });
+
+        endButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //finish();
+                //System.exit(0);
             }
         });
     }
