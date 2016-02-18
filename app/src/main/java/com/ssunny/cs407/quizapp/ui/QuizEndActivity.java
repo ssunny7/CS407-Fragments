@@ -36,8 +36,12 @@ public class QuizEndActivity extends AppCompatActivity {
         endButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //finish();
-                //System.exit(0);
+                Intent endIntent = new Intent(Intent.ACTION_MAIN);
+                endIntent.addCategory(Intent.CATEGORY_HOME);
+                endIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                endIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(endIntent);
+                finish();
             }
         });
     }

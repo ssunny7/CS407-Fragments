@@ -22,7 +22,7 @@
         android:layout_marginTop="@dimen/startpage_button_margin"
         android:padding="@dimen/startpage_button_padding"
         android:textColor="@android:color/white"
-        android:background="@color/red"
+        android:background="@drawable/rounded_start_button"
         android:textSize="@dimen/startpage_button_text_fontsize"
         android:text="@string/startpage_buttontext"/>
 

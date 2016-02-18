@@ -8,6 +8,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="14pt"
+        android:gravity="center"
         android:id="@+id/questionText"/>
 
     <RadioGroup
@@ -18,18 +21,26 @@
 
         <RadioButton
             android:id="@+id/option0"
+            android:textSize="14pt"
+            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <RadioButton
             android:id="@+id/option1"
+            android:textSize="14pt"
+            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <RadioButton
             android:id="@+id/option2"
+            android:textSize="14pt"
+            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <RadioButton
             android:id="@+id/option3"
+            android:textSize="14pt"
+            android:padding="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
